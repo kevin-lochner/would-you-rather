@@ -16,7 +16,7 @@
       <div>
         <h1>You would rather ... </h1>
         <!-- If no questions are answered, don't display answers -->
-        <h3 v-if="answeredQuestions.length < 1">Fill in some answers</h3>
+        <h3 v-if="answeredQuestions.length < 1">Fill in some answers and we'll let you know</h3>
         <!-- Otherwise a list item for each answered question -->
         <ul v-else>
           <li
@@ -97,5 +97,6 @@ export default {
 
 <style>
 #app {
+  text-align: center;
 }
 </style>

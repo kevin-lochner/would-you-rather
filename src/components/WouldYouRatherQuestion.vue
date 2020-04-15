@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="would-you-rather-question">
         <!-- List item for each question component -->
         <li>
             <h3>{{question.question}}</h3>
@@ -27,5 +27,10 @@ export default {
 </script>
 
 <style>
-
+.would-you-rather-question {
+    margin-top: 15px;
+    border-style: solid;
+    border-width: medium;
+    border-color: navy;
+}
 </style>
